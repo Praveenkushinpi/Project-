@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scramble Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<body>
+  <div class="game-container">
+    <h1>Scramble Game</h1>
+    <div class="scrambled-word" id="scrambledWord">?????</div>
+    <input type="text" id="guessInput" placeholder="Your Guess">
+    <button id="submitGuess">Submit</button>
+    <div class="score">Score: <span id="score">0</span></div>
+    <div class="level">Level: <span id="level">1</span></div>
+    <div class="timer">Time Left: <span id="timer">30</span> s</div>
+    <div class="leaderboard">Leaderboard: <span id="leaderboard">No high scores yet</span></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
